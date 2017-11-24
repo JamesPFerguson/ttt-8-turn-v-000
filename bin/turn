@@ -12,5 +12,5 @@ if !(valid_move?(board, input))
     turn(board)
 end
 else move(board, index)
-end    
+end
 display_board(board)
