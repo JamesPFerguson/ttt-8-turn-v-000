@@ -36,7 +36,8 @@ end
    if !(valid_move?(board, input))
        turn(board)
    end
-   else move(board, index)
+   else
+     move(board, index)
    end
    display_board(board)
  end
