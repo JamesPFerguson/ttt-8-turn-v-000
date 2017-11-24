@@ -1,3 +1,4 @@
+
 def display_board(board)
 puts " #{board[0]} | #{board[1]} | #{board[2]} "
  puts "-----------"
@@ -10,7 +11,7 @@ end
    mark.to_i-1
  end
 
- def move(board, index, character = "X")
+ def move(board, index, token = "X")
    character.upcase
    board[index] = "#{character}"
  end
@@ -27,6 +28,6 @@ end
    index.between?(0,8) && !position_taken?(board, index)
  end
 
- def turn()
-
+ def turn(board)
+   puts "Please enter 1-9"
  end
