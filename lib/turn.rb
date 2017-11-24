@@ -12,7 +12,7 @@ end
  end
 
  def move(board, index, token = "X")
-   character.upcase
+   token.upcase
    board[index] = "#{character}"
  end
 
