@@ -35,7 +35,6 @@ end
    index = input_to_index(input)
    if !(valid_move?(board, input))
        turn(board)
-   end
    else
      move(board, index)
    end
