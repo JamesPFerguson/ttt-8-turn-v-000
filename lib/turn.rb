@@ -29,7 +29,7 @@ end
  end
 
  def turn(board)
-   puts "Please enter 1-9"
+   puts "Please enter 1-9:"
    puts "Where would you like to go?"
    input = gets.strip
    index = input_to_index(input)
