@@ -13,7 +13,7 @@ end
 
  def move(board, index, token = "X")
    token.upcase
-   board[index] = "#{character}"
+   board[index] = "#{token}"
  end
 
  def position_taken?(board, index)
